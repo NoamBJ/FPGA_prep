@@ -1,0 +1,8 @@
+v 4
+file . "hdl/src/uart_tx.vhd" "e7cac470e9723be058f175a38cc95fa34017ed8c" "20250808222808.585":
+  entity uart_tx at 2( 13) + 0 on 17;
+  architecture rtl of uart_tx at 37( 983) + 0 on 18;
+file . "hdl/pkg/uart_pkg.vhd" "68fe3ff25f68a264864a7127525cc30363133df7" "20250808222808.533":
+  package uart_pkg at 2( 13) + 0 on 14;
+  entity dummy_generate_example at 38( 1276) + 0 on 15;
+  architecture rtl of dummy_generate_example at 49( 1536) + 0 on 16;
