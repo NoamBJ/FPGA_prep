@@ -1,8 +1,11 @@
 v 4
-file . "hdl/src/uart_tx.vhd" "e7cac470e9723be058f175a38cc95fa34017ed8c" "20250808222808.585":
-  entity uart_tx at 2( 13) + 0 on 17;
-  architecture rtl of uart_tx at 37( 983) + 0 on 18;
-file . "hdl/pkg/uart_pkg.vhd" "68fe3ff25f68a264864a7127525cc30363133df7" "20250808222808.533":
-  package uart_pkg at 2( 13) + 0 on 14;
-  entity dummy_generate_example at 38( 1276) + 0 on 15;
-  architecture rtl of dummy_generate_example at 49( 1536) + 0 on 16;
+file . "hdl/src/uart_tx.vhd" "84ec0b5360b7f445bd6d872f0bbb23f32445e9ec" "20250810133039.345":
+  entity uart_tx at 2( 13) + 0 on 21;
+  architecture rtl of uart_tx at 23( 457) + 0 on 22;
+file . "hdl/pkg/uart_pkg.vhd" "afb07bc3a041c722daeac9c2ada982f4823981af" "20250810133039.320":
+  package uart_pkg at 2( 13) + 0 on 18;
+  entity dummy_generate_example at 28( 680) + 0 on 19;
+  architecture rtl of dummy_generate_example at 39( 895) + 0 on 20;
+file . "hdl/tb/uart_tx_tb.vhd" "0fcc36b652882bb21360773e06291b069dc03864" "20250810133039.393":
+  entity uart_tx_tb at 2( 13) + 0 on 23;
+  architecture tb of uart_tx_tb at 10( 140) + 0 on 24;
