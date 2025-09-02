@@ -2,10 +2,14 @@
 VHDL_FILES = \
   hdl/pkg/uart_pkg.vhd \
   hdl/src/uart_tx.vhd  \
-  hdl/tb/uart_tx_tb.vhd
+  hdl/src/uart_rx.vhd  \
+  hdl/tb/uart_tx_tb.vhd	\
+  hdl/tb/uart_rx_tb.vhd
 
 # Name of the top-level testbench entity
-TB_ENTITY = uart_tx_tb
+# TB_ENTITY = uart_tx_tb
+TB_ENTITY = uart_rx_tb
+
 
 # Default target when you just type "make"
 all: run
