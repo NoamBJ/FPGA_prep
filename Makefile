@@ -3,6 +3,7 @@ VHDL_FILES = \
   hdl/pkg/uart_pkg.vhd \
   hdl/src/uart_tx.vhd  \
   hdl/src/uart_rx.vhd  \
+  hdl/src/byte_fifo.vhd  \
   hdl/tb/uart_tx_tb.vhd	\
   hdl/tb/uart_rx_tb.vhd
 
